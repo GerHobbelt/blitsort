@@ -1,4 +1,5 @@
-// blitsort 1.2.1.2 - Igor van den Hoven ivdhoven@gmail.com
+// blitsort 1.2.1.3 - Igor van den Hoven ivdhoven@gmail.com
+
 #ifndef BLITSORT_H
 #define BLITSORT_H
 
