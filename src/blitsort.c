@@ -470,7 +470,8 @@ void FUNC(blit_partition)(VAR *array, VAR *swap, size_t swap_size, size_t nmemb,
 
 				if (s_size <= a_size / 16 || a_size <= BLIT_OUT)
 				{
-					return FUNC(quadsort_swap)(array, swap, swap_size, a_size, cmp);
+					FUNC(quadsort_swap)(array, swap, swap_size, a_size, cmp);
+					return;
 				}
 				nmemb = a_size; a_size = 0;
 				continue;
